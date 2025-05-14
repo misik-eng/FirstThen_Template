@@ -10,7 +10,7 @@
 
 ## Lessons Learned
 
-______________________________________________________________________
+---
 
 ## Strategy vs. Board
 
@@ -21,3 +21,11 @@ ______________________________________________________________________
 ### Did you need to add things that weren't in your strategy?
 
 ### Or remove extra steps?
+
+---
+
+## Individual Rerospectives
+
+### Name
+
+<!-- write a 2-3 sentence reflection on your contributions, challenges and progress in this milestone -->
