@@ -1,14 +1,25 @@
 # Datasets: Guide
 
-Store your local datasets in this folder (`.csv`, `.xlsx`, `.json`, `.sqlite`, ...). You can use the README to document each dataset (where it's from, what data & types it contains, what you use it for, ...).
+Store your local datasets in this folder (`.csv`, `.xlsx`, `.json`, `.sqlite`,
+...). You can use the README to document each dataset (where it's from, what
+data & types it contains, what you use it for, ...).
 
-One of the primary goals of this repository is that anyone can clone and replicate your research. To make this possible **DO NOT modify or overwrite your raw datasets**! You should keep them _exactly_ as they were when you downloaded them, you may even want to name them `dataset.raw.ext` (eg. `daily_temperatures.raw.csv`).
+One of the primary goals of this repository is that anyone can clone and
+replicate your research. To make this possible **DO NOT modify or overwrite your
+raw datasets**! You should keep them _exactly_ as they were when you downloaded
+them, you may even want to name them `dataset.raw.ext` (eg.
+`daily_temperatures.raw.csv`).
 
-When cleaning and processing your datasets, you should save the prepared data to a _new_ file with a descriptive name. This approach will result in many dataset files, but that's ok!
+When cleaning and processing your datasets, you should save the prepared data to
+a _new_ file with a descriptive name. This approach will result in many dataset
+files, but that's ok!
 
 ## Types of Dataset
 
-A dataset is "simply" a collection of related measurements or observations. To create a good model of your problem using data you must understanding what _kinds_ of data exist, how to understand them, and the best ways to analyze each one. The kind of data you choose impacts:
+A dataset is "simply" a collection of related measurements or observations. To
+create a good model of your problem using data you must understanding what
+_kinds_ of data exist, how to understand them, and the best ways to analyze each
+one. The kind of data you choose impacts:
 
 - The tools you use for exploration and analysis
 - How we visualize the data
@@ -32,17 +43,20 @@ Data that represents quantities and can represented as numbers.
 
 #### Continuous Data
 
-- **Definition**: Can take any value within a range (including fractions and decimals)
+- **Definition**: Can take any value within a range (including fractions and
+  decimals)
 - **Examples**: Height, weight, temperature, time, distance
 - **Analysis**: Mean, median, standard deviation, histograms, scatter plots
-- **Real-world example**: Recording daily temperature over a month (72.5°F, 68.3°F, etc.)
+- **Real-world example**: Recording daily temperature over a month (72.5°F,
+  68.3°F, etc.)
 
 #### Discrete Data
 
 - **Definition**: Countable values, typically whole numbers
 - **Examples**: Number of children, items sold, count of occurrences
 - **Analysis**: Frequency tables, bar charts, mode
-- **Real-world example**: Number of customers visiting a store each day (45, 52, 38, etc.)
+- **Real-world example**: Number of customers visiting a store each day (45, 52,
+  38, etc.)
 
 ### Qualitative (Categorical) Data
 
@@ -53,14 +67,16 @@ Data that describes qualities or characteristics of what you want to study.
 - **Definition**: Categories with no inherent order or ranking
 - **Examples**: Gender, blood type, country, color, product type
 - **Analysis**: Frequency counts, mode, chi-square tests, pie charts
-- **Real-world example**: Survey responses for favorite color (red, blue, green, etc.)
+- **Real-world example**: Survey responses for favorite color (red, blue, green,
+  etc.)
 
 #### Ordinal Data
 
 - **Definition**: Categories with a meaningful order or ranking
 - **Examples**: Education level, satisfaction ratings (1-5), economic status
 - **Analysis**: Median, percentiles, rank correlations, stacked bar charts
-- **Real-world example**: Customer satisfaction ratings (very dissatisfied, dissatisfied, neutral, satisfied, very satisfied)
+- **Real-world example**: Customer satisfaction ratings (very dissatisfied,
+  dissatisfied, neutral, satisfied, very satisfied)
 
 ### Binary Data
 
@@ -116,7 +132,8 @@ Data that describes qualities or characteristics of what you want to study.
 - **Examples**: Surveys, experiments, interviews, direct observations
 - **Advantages**: Tailored to research needs, higher control over quality
 - **Disadvantages**: Time-consuming, potentially expensive
-- **Real-world example**: Market research survey designed specifically for a new product
+- **Real-world example**: Market research survey designed specifically for a new
+  product
 
 ### Secondary Data
 
@@ -128,21 +145,26 @@ Data that describes qualities or characteristics of what you want to study.
 
 ### [Proxy Data](https://centerforgov.gitbooks.io/benchmarking/content/Proxy.html)
 
-- **Definition**: Data that is 
-- **Examples**: Tree rings to proxy historical weather patterns, tax data to proxy incomes
-- **Advantages**: Helos you understand phenomena that are difficult or impossible to study directly.
+- **Definition**: Data that is
+- **Examples**: Tree rings to proxy historical weather patterns, tax data to
+  proxy incomes
+- **Advantages**: Helos you understand phenomena that are difficult or
+  impossible to study directly.
 - **Disadvantages**: You cannot draw conclusions with the same confidence.
-- **Real-world example**:  Using the stock market + unemployment rates as a proxy for the economy..
+- **Real-world example**: Using the stock market + unemployment rates as a proxy
+  for the economy..
 
 ### Experimental Data
 
-- **Definition**: Generated from controlled experiments with manipulated variables
+- **Definition**: Generated from controlled experiments with manipulated
+  variables
 - **Examples**: A/B tests, clinical trials, laboratory experiments
 - **Characteristics**:
   - Control and treatment groups
   - Controlled conditions
   - Designed to establish causality
-- **Real-world example**: Testing whether a new website design increases conversion rates
+- **Real-world example**: Testing whether a new website design increases
+  conversion rates
 
 ### Observational Data
 
@@ -152,7 +174,8 @@ Data that describes qualities or characteristics of what you want to study.
   - Natural setting
   - No manipulation of variables
   - Good for establishing correlation (not causation)
-- **Real-world example**: Observing and recording consumer shopping behaviors in a store
+- **Real-world example**: Observing and recording consumer shopping behaviors in
+  a store
 
 ## Classification by Size and Complexity
 
@@ -186,8 +209,10 @@ Data that describes qualities or characteristics of what you want to study.
   - Curse of dimensionality
   - Feature selection importance
   - Visualization difficulties
-- **Analysis**: Dimension reduction techniques (PCA, t-SNE), specialized algorithms
-- **Real-world example**: Gene expression data with thousands of genes measured for each sample
+- **Analysis**: Dimension reduction techniques (PCA, t-SNE), specialized
+  algorithms
+- **Real-world example**: Gene expression data with thousands of genes measured
+  for each sample
 
 ## Classification by Access Type
 
@@ -204,7 +229,8 @@ Data that describes qualities or characteristics of what you want to study.
 ### Private Data
 
 - **Definition**: Access restricted to authorized users
-- **Examples**: Company internal data, personal health records, proprietary research
+- **Examples**: Company internal data, personal health records, proprietary
+  research
 - **Characteristics**:
   - Security measures required
   - Often subject to privacy regulations
@@ -251,7 +277,8 @@ Data that describes qualities or characteristics of what you want to study.
   - Reference data
   - Shared across systems
   - Requires governance
-- **Real-world example**: Product master list with SKUs, descriptions, and categories
+- **Real-world example**: Product master list with SKUs, descriptions, and
+  categories
 
 ### Metadata
 
@@ -276,7 +303,8 @@ Data that describes qualities or characteristics of what you want to study.
 
 ### Hierarchical Data
 
-- **Definition**: Organized in a tree-like structure with parent-child relationships
+- **Definition**: Organized in a tree-like structure with parent-child
+  relationships
 - **Examples**: XML, JSON, file systems
 - **Characteristics**:
   - Nested structure

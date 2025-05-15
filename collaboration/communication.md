@@ -9,7 +9,7 @@
 
 # Communication
 
-______________________________________________________________________
+---
 
 ## Communication Schedule
 
@@ -25,15 +25,15 @@ how often will we get in touch on each channel, and what we will discuss there:
 - **Slack/Discord**:
 - **Video Calls**:
 
-______________________________________________________________________
+---
 
 ## Availability
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |     |
+| ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: | --- |
+| _name_ |        |         |           |          |        |          |        |
 
 ### How many hours everyone has per day
 

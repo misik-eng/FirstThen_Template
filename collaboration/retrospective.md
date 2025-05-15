@@ -28,4 +28,4 @@
 
 ### Name
 
-<!-- write a 2-3 sentence reflection on your contributions, challenges and progress in this milestone -->
+<!-- reflect on your contributions, challenges and progress in this milestone -->
