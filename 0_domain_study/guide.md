@@ -8,3 +8,8 @@ PDFs, links you found helpful, ...
 This folder is different from `/notes` because it contains _only_ information
 about your research domain. When deciding what goes here, ask yourself this
 question: _Would someone need to know this to understand our research?_
+
+## README.md
+
+Use this folder's README to document all the notes and resources in this folder.
+Someone shouldn't need to read through _everything_ to find what they need.

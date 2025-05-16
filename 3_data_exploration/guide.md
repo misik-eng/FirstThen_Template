@@ -21,3 +21,8 @@ replicate your work.
 
 > [Chapter 4 - Exploratory Data Analysis](https://bookdown.org/rdpeng/artofdatascience/exploratory-data-analysis.html)
 > from the Art of Data Science is a good starting reference.
+
+## README.md
+
+Use the README in this folder to give a quick summary of each script/notebook -
+which dataset(s) it explores, and how.

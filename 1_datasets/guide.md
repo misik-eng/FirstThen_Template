@@ -14,6 +14,12 @@ When cleaning and processing your datasets, you should save the prepared data to
 a _new_ file with a descriptive name. This approach will result in many dataset
 files, but that's ok!
 
+## README.md
+
+Use the README in this folder to document each dataset in the folder. Include
+information like: where is the data from? how was it collected? how does it
+relate to your problem? ...
+
 ## Types of Dataset
 
 A dataset is "simply" a collection of related measurements or observations. To

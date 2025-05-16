@@ -11,3 +11,9 @@ your datasets. These files should:
 processed data to a _new_ file.** This is critical to open research: Someone
 should be able to clone this repository and run your scripts to replicate your
 research. If you modify an original dataset, others cannot replicate your work.
+
+## README.md
+
+Use this folder's README to give a quick summary of each script/notebook - which
+dataset(s) does it process and how? which datasets does it create and save to
+`/1_datasets`?.
