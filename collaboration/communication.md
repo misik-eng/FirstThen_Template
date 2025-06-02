@@ -31,9 +31,9 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |     |
-| ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: | --- |
-| _name_ |        |         |           |          |        |          |        |
+| Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday|
+| ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----:|
+| _name_ |        |         |           |          |        |          |       |
 
 ### How many hours everyone has per day
 
@@ -51,4 +51,4 @@ based on how long you've been stuck on the same problem:
 
 1. _0 -> 30 min_: Try on your own
 1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+1. _60+ min_: Tag your coaches in Slack, Whatsapp or GitHub
