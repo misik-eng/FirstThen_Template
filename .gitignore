@@ -1,7 +1,61 @@
-__pycache__
-*.pytest_cache
+# === Python caches ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+.venv/
 venv/
-# .env
-*.db
-*.idea
+ENV/
+env/
+env.bak/
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 *.ruff_cache
+
+# === Test & build caches ===
+*.pytest_cache
+*.tox/
+.build/
+dist/
+*.egg-info/
+
+# === Logs & temporary ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Database & local storage ===
+*.db
+*.sqlite3
+
+# === Jupyter notebook checkpoints ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Data files (real or sensitive) ===
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# === Environment & secrets ===
+.env
+.env.*
+secrets.json
+credentials.json
+config.json
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -14,7 +14,7 @@ about: A template with a generic and high-level review checklist, feel free to m
 
 <!-- A clear and concise description of what the Pull Request is about. -->
 
-## General Checks
+# General Checks
 
 - [ ] the branch is up to date with `main`
 - [ ] the code works when pulled and run locally
