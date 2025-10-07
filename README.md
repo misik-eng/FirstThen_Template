@@ -78,6 +78,6 @@ All rights reserved. Unauthorized use or distribution is prohibited.
 
 ## Maintainers
 
-- **Sahar Omer** – Data Science Intern  
+- **Sahar** – Data Science Intern  
 - **Ali Isik** – Data Science Intern  
 - **Amanda Schnetzer** – Project Lead, FirstThen  
